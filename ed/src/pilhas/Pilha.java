@@ -1,8 +1,8 @@
 package pilhas;
 
 public class Pilha<T> {
-    private T[] elementos;
-    private int tamanho;
+    private final T[] elementos;
+    private final int tamanho;
 
     public Pilha(int capacidade) {
         elementos = (T[]) new Object[capacidade];

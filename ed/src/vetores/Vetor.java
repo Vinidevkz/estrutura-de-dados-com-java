@@ -1,7 +1,7 @@
 package vetores;
 
 public class Vetor {
-    private String[] elementos;
+    private final String[] elementos;
 
     public Vetor(int quantidade){
         this.elementos = new String[quantidade];
